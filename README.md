@@ -1,3 +1,9 @@
+<h1>Deploy a WordPress on Kubernetes, using Minikube with Helm and automation with Jenkins</h1>
+
+First, we need to set up a Kubernetes cluster and install the WordPress Helm chart in our designated directory. Then, we will use Jenkins to create a pipeline and
+automate the process, by implementing a CI/CD workflow.
+
+
 <h3>1. Downloading the WordPress chart and installing it with Helm<h3>
 
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/2cea28dd-6431-4f61-a279-b2b1897b870e)
