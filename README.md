@@ -40,6 +40,7 @@
 
 <h4><i>Errors that I've got:</i><h4>
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/64c3d253-80f3-4bc5-bce3-9525a93244bd)
+
  <i>1) The Chart.yaml file is missing</i>
 
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/1de590de-86d7-471b-9dad-79a34308465d)
@@ -72,6 +73,7 @@ Finally, I was able to create and execute the pipeline with no errors:
 
 <h4>7. I had to forward the port to 27107 so that I can access the site, since I had some issues with the ports</h4>
  ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/f8f0c57b-8b7b-48ab-8e76-0264fddf4d59)
+ 
  - to resolve this issue, I used the command <em>kubectl port-forward svc/wordpress-chart 27017:80</em>
 
  <h4>8. This way, I could access the site on 127.0.0.1:27017</h4>
