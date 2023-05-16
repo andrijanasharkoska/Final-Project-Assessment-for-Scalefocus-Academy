@@ -36,10 +36,14 @@ The first step was verified, but I encountered an issue with the second part of 
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/fcea40dd-e81f-4291-8f96-a4734b76158f)
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/bde857c9-b759-47e6-80ac-871e53582ed2)
 
-
+The path was not correctly specified.
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5dd31f2e-20a7-4e50-a579-b32927dc0d86)
 
+The first stages are checked:
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/788e494d-b517-40de-8ee5-d5aee03f6b5f)
 
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/dc1bc8b3-5629-4bee-a310-7fc4d8ae3413)
+ - the namespace exists
 7. I had to forward the port to 27107 so that I can access the site, since I had some issues with the ports
  ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/f8f0c57b-8b7b-48ab-8e76-0264fddf4d59)
  - to resolve this issue, I used the command <em>kubectl port-forward svc/wordpress-chart 27017:80</em>
