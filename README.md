@@ -37,6 +37,8 @@ The first step was verified, but I encountered an issue with the second part of 
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/bde857c9-b759-47e6-80ac-871e53582ed2)
 
 
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5dd31f2e-20a7-4e50-a579-b32927dc0d86)
+
 
 7. I had to forward the port to 27107 so that I can access the site, since I had some issues with the ports
  ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/f8f0c57b-8b7b-48ab-8e76-0264fddf4d59)
