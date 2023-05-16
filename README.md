@@ -55,6 +55,7 @@
    The script was working with the "wp" namespace in another pipeline, and I will be providing it with th the <strong>"wp"</strong> and <strong>"final-project-wp-scalefocus"</strong> as values.</i>
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/6b8361a1-969a-4b04-a8f9-cd99ea87c9cd)
 
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/b8bb022d-eb4b-4dec-9b7d-d09fae489a52)
 
 
 
@@ -71,9 +72,6 @@ Finally, I was able to create and execute the pipeline with no errors:
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/250a3aec-4cbf-434a-8861-65a774da36d1)
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/77668277-0206-4934-8982-88de9fee42e9)
 
-
-
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/4473fbdb-9b24-4405-9733-ab5706afdb0e)
 
 <h4>7. I had to forward the port to 27107 so that I can access the site, since I had some issues with the ports</h4>
 
