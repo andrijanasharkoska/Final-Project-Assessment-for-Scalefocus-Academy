@@ -39,12 +39,13 @@
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5104d208-88a9-4977-b295-708a1244b1b4)
 
 <h4><i>Errors that I've got:</i><h4>
-
+ 
+ <i>1) The Chart.yaml file is missing</i>
  
  ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/e91155bf-1e03-4bde-aadf-6293f883d21c)
 
 
- <i>1) The Chart.yaml file is missing</i>
+ 
 
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/1de590de-86d7-471b-9dad-79a34308465d)
 
