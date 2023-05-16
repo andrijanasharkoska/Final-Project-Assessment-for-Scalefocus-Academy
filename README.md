@@ -78,12 +78,12 @@ Finally, I was able to create and execute the pipeline with no errors:
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/77668277-0206-4934-8982-88de9fee42e9)
 
 
-<h4>7. I had to forward the port to 27107 so that I can access the site, since I had some issues with the ports</h4>
+<h4>7. I had to forward the site to port 27107 so that I can access it, since I had some issues with the ports and spent hours debugging the reason behind it</h4>
 
  
  ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/207f6978-b126-46bd-9881-48e173ad4aff)
  
- - to resolve this issue, I used the command <em>kubectl port-forward svc/wordpress-chart 27017:80</em>
+ - To resolve this issue, I used the command <em>kubectl port-forward svc/wordpress-chart 27017:80</em>
 
  
  <h4>8. This way, I could access the site on 127.0.0.1:27017</h4>
