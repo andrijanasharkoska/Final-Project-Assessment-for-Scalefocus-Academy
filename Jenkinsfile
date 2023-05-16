@@ -21,22 +21,16 @@ pipeline {
       }
     }
 
-    stage('Check and Install WordPress') {
+    stage('Deploy Helm Chart') {
       steps {
         script {
           def releaseName = 'wordpress'
           def chartVersion = 'stable/wordpress'
+          def chartValuesFile = '/Users/hp/Desktop/Final Project 7/charts/bitnami/wordpress/values.yaml'
 
-          // Check if WordPress release is already installed
-          def releaseStatus = sh(returnStatus: true, script: "helm status ${releaseName} > /dev/null 2>&1 || echo 'not-found'").trim()
-
-          if (releaseStatus == 'not-found') {
-            // WordPress release not found, install the chart
-            sh "helm install ${releaseName} ${chartVersion} --namespace wp"
-            echo "WordPress chart installed"
-          } else {
-            echo "WordPress chart already installed"
-          }
+          // Install or upgrade the Helm chart
+          sh "start /B helm upgrade --install ${releaseName} ${chartVersion} --namespace wp -f ${chartValuesFile}"
+          echo "Helm chart deployed or upgraded"
         }
       }
     }
