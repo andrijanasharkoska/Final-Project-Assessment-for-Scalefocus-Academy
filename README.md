@@ -38,7 +38,20 @@
 
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5104d208-88a9-4977-b295-708a1244b1b4)
 
+<h4><i>Errors that I've got:</i><h4>
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/64c3d253-80f3-4bc5-bce3-9525a93244bd)
+ <i>1) The Chart.yaml file is missing</i>
 
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/1de590de-86d7-471b-9dad-79a34308465d)
+
+  <i>- Since I was executing the code several times, and I used another pipiline to fix the errors, so I can have a clean pipeline for the final project,
+   I got an error that the namespace <strong>"wp"</strong> and the variable <strong>"releaseName"</strong> with the same value was already in use. 
+   To fix this, I used "wp1" and I've changed the releaseName variable to 'final-project-wp-scalefocus1'just for the sake of finalizing the project. 
+   The script was working with the "wp" namespace in another pipeline, and I will be providing it with th the <strong>"wp"</strong> and <strong>"final-project-wp-scalefocus"</strong> as values.</i>
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/6b8361a1-969a-4b04-a8f9-cd99ea87c9cd)
+
+ <i> - Here's the error with the namespace I got: </i>
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5d5f5cb6-c5f1-4163-ae71-f71cf09914be)
 
 The first step was verified, but I encountered an issue with the second part of the script - the deployment failed
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/fcea40dd-e81f-4291-8f96-a4734b76158f)
@@ -47,31 +60,11 @@ The first step was verified, but I encountered an issue with the second part of 
 The path was not correctly specified, as we can see from the previous step as well:
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5dd31f2e-20a7-4e50-a579-b32927dc0d86)
 
-The first stages are checked:
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/788e494d-b517-40de-8ee5-d5aee03f6b5f)
-
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/dc1bc8b3-5629-4bee-a310-7fc4d8ae3413)
- - the namespace exists
- - 
-<h4><i>Errors that I've got:</i><h4>
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/64c3d253-80f3-4bc5-bce3-9525a93244bd)
- <i>1) The Chart.yaml file is missing</i>
-
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/1de590de-86d7-471b-9dad-79a34308465d)
-
-  <i>2) Since I was executing the code several times, and I used another pipiline to fix the errors, so I can have a clean pipeline for the final project,
-I got an error that the namespace "wp" was already in use. To fix this, I used "wp1" and I've changed the releaseName variable to 'final-project-wp-scalefocus1'
-just for the sake of finalizing the project. The script was working with the "wp" namespace in another pipeline.</i>
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/6b8361a1-969a-4b04-a8f9-cd99ea87c9cd)
-
-   3) Here's the error with the namespace I got:
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/eb390f95-da01-4909-aa1e-f1abdda8670a)
  
  
 Finally, I was able to create and execute the pipeline with no errors:
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/250a3aec-4cbf-434a-8861-65a774da36d1)
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/77668277-0206-4934-8982-88de9fee42e9)
-
 
 
 
