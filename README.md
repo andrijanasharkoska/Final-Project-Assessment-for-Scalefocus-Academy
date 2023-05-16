@@ -46,7 +46,7 @@
 
 
  
-
+ <i> - Here's the error with the namespace I got: </i>
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/1de590de-86d7-471b-9dad-79a34308465d)
 
   <i>- Since I was executing the code several times, and I used another pipiline to fix the errors, so I can have a clean pipeline for the final project,
@@ -55,8 +55,8 @@
    The script was working with the "wp" namespace in another pipeline, and I will be providing it with th the <strong>"wp"</strong> and <strong>"final-project-wp-scalefocus"</strong> as values.</i>
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/6b8361a1-969a-4b04-a8f9-cd99ea87c9cd)
 
- <i> - Here's the error with the namespace I got: </i>
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5d5f5cb6-c5f1-4163-ae71-f71cf09914be)
+
+
 
 The first step was verified, but I encountered an issue with the second part of the script - the deployment failed
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/fcea40dd-e81f-4291-8f96-a4734b76158f)
@@ -76,10 +76,13 @@ Finally, I was able to create and execute the pipeline with no errors:
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/4473fbdb-9b24-4405-9733-ab5706afdb0e)
 
 <h4>7. I had to forward the port to 27107 so that I can access the site, since I had some issues with the ports</h4>
- ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/f8f0c57b-8b7b-48ab-8e76-0264fddf4d59)
+
+ 
+ ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/207f6978-b126-46bd-9881-48e173ad4aff)
  
  - to resolve this issue, I used the command <em>kubectl port-forward svc/wordpress-chart 27017:80</em>
 
+ 
  <h4>8. This way, I could access the site on 127.0.0.1:27017</h4>
 
 
