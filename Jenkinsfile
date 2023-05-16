@@ -6,22 +6,23 @@ pipeline {
    }
 
    stages {
-      stage('Namespace') {
+      stage('Checking if the namespace exists') {
             steps {
                script {
-                  def namespaceExists = sh(script: 'kubectl get namespace wp', returnStatus: true) == 0
-                  if (namespaceExists) {
-                        echo 'Namespace wp exists'
+                  def wpNamespace = sh(script: 'kubectl get namespace wp', returnStatus: true) == 0
+                  if (!wpNamespace) {
+                      echo 'Creating the wp namespace'
+                       sh 'kubectl create namespace wp'
+                        
                         return
                   } else {
-                        echo 'Creating wp namespace'
-                        sh 'kubectl create namespace wp'
+                       echo 'Namespace wp exists'
                   }
                }
             }
       }
 
-      stage('Helm') {
+      stage('Installing WordPress through Helm') {
             steps {
                script {
                   sh 'helm dependency build ./bitnami/wordpress'
