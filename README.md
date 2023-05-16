@@ -12,7 +12,7 @@
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/3f66239e-7c5f-470a-9262-829b1cdd4e29)
 
 * I found another command that can be used to change the service type and <strong>patch the chart</strong>:
-* ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5fe8752d-746b-4026-a63d-1af34086bc38)
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/5fe8752d-746b-4026-a63d-1af34086bc38)
 
 
 4. Using kubectl get svc to get the services I've created so far (I will be using wordpress-chart for the purpose of this project)
@@ -33,4 +33,11 @@
 
 7. This way, I could access the site on 127.0.0.1:27017
 8. ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/e1b6db17-b9e7-412c-9ccc-a15b21a89d80)
+- And log in with the credentials
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/7e74e44b-0079-4b87-9103-9a1b01455910)
 
+Here is the final result:
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/b86a1c54-83a3-423e-924a-9f7ab0744869)
+
+9. Create a Jenkins pipeline
+ - I used the help of ChatGPT to generate the script for the namespace condition and installation of the WordPress Helm chart.
