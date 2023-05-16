@@ -55,8 +55,7 @@
    The script was working with the "wp" namespace in another pipeline, and I will be providing it with th the <strong>"wp"</strong> and <strong>"final-project-wp-scalefocus"</strong> as values.</i>
 ![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/6b8361a1-969a-4b04-a8f9-cd99ea87c9cd)
 
-![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/b8bb022d-eb4b-4dec-9b7d-d09fae489a52)
-
+![image](https://github.com/andrijanasharkoska/Final-Project-Assessment-for-Scalefocus-Academy/assets/125911121/cec22692-5e89-4364-8af6-f16dae18c60d)
 
 
 The first step was verified, but I encountered an issue with the second part of the script - the deployment failed
